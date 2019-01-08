@@ -1,0 +1,12 @@
+QUESTÃO 5:
+Fatorial é um cálculo um pouco trabalhoso para o Java, por que  é um número que cresce atualmente.
+Segundo a documentação oficial, a variável do tipo int pode variar de -2.147.483.648 até o máximo 2.147.483.647
+
+Note que:
+12! = 479.001.600
+13! = 6.227.020.800
+
+Ou seja, até n=12, tudo ok. Passou disso, o Java imprime valores errados, pois extrapola o máximo que a variável inteira pode suportar.
+
+Já o tipo long pode armazenar inteiros de tamanho até 9.223.372.036.854.775.807
+Ou seja, suporte até 20! = 2.432.902.008.176.640.000
